@@ -1,0 +1,17 @@
+{
+    "name": "xinchanedu/aliyun-opensearch",
+    "description": "The xinchanedu composer opensearch",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "zhouleyli",
+            "email": "515601276@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "XCOpenSearch\\": "src/"
+        }
+    }
+}
