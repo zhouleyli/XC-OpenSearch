@@ -1,7 +1,6 @@
 {
     "name": "xinchanedu/aliyun-opensearch",
     "description": "The xinchanedu composer opensearch",
-    "license": "MIT License",
     "authors": [
         {
             "name": "zhouleyli",
