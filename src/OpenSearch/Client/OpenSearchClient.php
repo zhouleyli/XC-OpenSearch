@@ -40,7 +40,7 @@ class OpenSearchClient extends OpenSearch {
     private $debug = false;
 
     public $timeout = 10;
-    public $connectTimeout = 1;
+    public $connectTimeout = 5;
 
     /**
      * 构造方法。
@@ -48,7 +48,7 @@ class OpenSearchClient extends OpenSearch {
      * @param string $accessKey 指定您的accessKeyId，在 https://ak-console.aliyun.com/#/accesskey 中可以创建。
      * @param string $secret 指定您的secret。
      * @param string $host 指定您要访问的区域的endPoint，在控制台应用详情页中有指定。
-     * @param array @options 指定一些可选参数，debug：true/false，是否开启debug模式（默认不开启），gzip:true/false 是否开启gzip压缩（默认不开启），timeout：超时时间，seconds（默认10秒）,connectTimeout: 连接超时时间，seconds(默认1秒)
+     * @param array @options 指定一些可选参数，debug：true/false，是否开启debug模式（默认不开启），gzip:true/false 是否开启gzip压缩（默认不开启），timeout：超时时间，seconds（默认10秒）,connectTimeout: 连接超时时间，seconds(默认5秒)
      * @return void
      */
     public function __construct($accessKey, $secret, $host, $options = array()) {
